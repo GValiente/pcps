@@ -1,0 +1,6 @@
+<map id="pcps::PlaneSegmentator" name="pcps::PlaneSegmentator">
+<area shape="rect" id="node2" href="$classpcps_1_1NormalMerger.html" title="Merges the given normal regions into planes (groups) with low standard deviation. ..." alt="" coords="5,5,145,32"/>
+<area shape="rect" id="node3" href="$classpcps_1_1NormalSplitter.html" title="Splits a given organized normal cloud into regions with low standard deviation. " alt="" coords="170,5,311,32"/>
+<area shape="rect" id="node4" href="$classpcps_1_1Organizer.html" title="Organizes a disorganized point cloud. " alt="" coords="335,5,450,32"/>
+<area shape="rect" id="node5" href="$classpcps_1_1NormalExtractor.html" title="Estimates local surface normals at each point of the given organized point cloud. ..." alt="" coords="475,5,628,32"/>
+</map>
