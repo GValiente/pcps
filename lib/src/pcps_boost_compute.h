@@ -12,9 +12,12 @@
     #pragma GCC diagnostic ignored "-Wswitch-enum"
     #pragma GCC diagnostic ignored "-Wfloat-equal"
     #pragma GCC diagnostic ignored "-Wctor-dtor-privacy"
-    #pragma GCC diagnostic ignored "-Wignored-attributes"
     #pragma GCC diagnostic ignored "-Wmissing-declarations"
     #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+
+    #if defined(__GNUC__) && __GNUC__ > 5
+        #pragma GCC diagnostic ignored "-Wignored-attributes"
+    #endif
 #endif
 
 #define BOOST_COMPUTE_THREAD_SAFE
