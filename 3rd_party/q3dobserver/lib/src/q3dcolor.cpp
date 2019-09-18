@@ -20,6 +20,7 @@
 
 #include "q3dcolor.h"
 
+#include <cmath>
 #include <QColor>
 #include "q3dconstants.h"
 
