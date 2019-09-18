@@ -31,6 +31,7 @@ To perform a point cloud segmentation, pcps provides the following algorithms:
 
 * Ubuntu 16.04 with gcc 5.4.0.
 * Ubuntu 18.04 with gcc 7.3.0.
+* macOS High Sierra with clang.
 
 ## Usage
 
